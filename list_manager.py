@@ -2,18 +2,25 @@
 
 def random_order(list):
     '''returns the list with random order'''
+    list=[20, 50, 10,30,40]
+    random.shuffle(list)
     pass
 
 def order_by_increasing_value(list):
     '''returns the list ordered by increasing value'''
+    list.sort()
     pass
 
 def order_by_decreasing_value(list):
     '''returns the list ordered by decreasing value'''
+    list.sort(reverse = True)
+    
     pass
 
 def reverse_order(list):
     '''returns the list in reverse order'''
+    list.reverse()
+    
     pass
 
 def stringfy_list(list):
